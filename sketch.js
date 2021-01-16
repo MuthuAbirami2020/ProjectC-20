@@ -13,15 +13,10 @@ function setup() {
   weight= random (400,1500)
  car.velocityX=speed;
 
-
- 
-
-}
  
 
 function draw() {
   background("black");  
-  
   
   if (wall.x-car.x<(car.width+wall.width)/2)
   {
@@ -41,5 +36,7 @@ function draw() {
     }
     
   }
+
+  
   drawSprites();
 }
